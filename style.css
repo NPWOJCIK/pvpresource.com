@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  background-image: url("wow.jpg");
+  background-size: cover;
+}
+
+/******************** HEADER ************************/
+#header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 10%;
+  background-color: grey;
+  border-bottom: 1px solid orange;
+}
+#header_left {
+  display: grid;
+  color: white;
+  justify-content: flex-start;
+  background-color: #00264d;
+}
+#header_right {
+  display: grid;
+  align-items: center;
+  color: white;
+  background-color: #00264d;
+  font-size: 1em;
+}
+#logo_name {
+  text-align: center;
+  font-size: 2.5em;
+}
+#search_nav {
+  text-align: center;
+  color: orange;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/******************** CONTENT ************************/
+#content {
+  display: grid;
+  grid-template-columns:  1fr 1fr 2fr 1fr 1fr;
+  width: 100%;
+  height: 80%;
+  /*background-color: #001a33;*/
+}
+#content_left {
+  display: grid;
+  justify-items: stretch;
+  background-color: #565656;
+  border-radius: 1%;
+  /*border: 2px solid black;*/
+  padding: 5px;
+  padding-bottom: 10px;
+}
+#content_middle {
+  background-color: rgba(0, 0, 0, .8);
+  text-align: center;
+}
+#content_right {
+  display: grid;
+  justify-items: stretch;
+  background-color: #565656;
+  border-radius: 1%;
+  /*border: 2px solid black;*/
+  padding: 5px;
+  padding-bottom: 10px;
+}
+#text_input {
+  margin-bottom: 5px;
+}
+/******************** FOOTER *************************/
+#footer {
+  display: grid;
+  width: 100%;
+  height: 10%;
+  background-color: #00264d;
+  border-top: 1px solid orange;
+}
+.text_Headers {
+  color: white;
+  font-size: 2em;
+  padding-bottom: 25px;
+}
+.text_titles_light {
+  text-align: center;
+  background-color: #777777;
+}
+.text_titles {
+  text-align: left;
+  color: orange;
+  text-shadow: 0px 0px 10px black;
+}
+.holder {
+  padding: 30px;
+  font-size: 8px;
+  color: #999999;
+}
+.text_titles_dark {
+  text-align: center;
+  background-color: #888888;
+}
+.items_odd {
+  font-size: .9em;
+  background-color: #888888;
+  padding-left: 5px;
+  color: white;
+}
+.items_even {
+  font-size: .9em;
+  background-color: #777777;
+  padding-left: 5px;
+  color: white;
+}
+span {
+  color: green;
+}
+.special_chars {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #888888;
+}
+.quick_button {
+  font-family: 'Times-new-roman';
+}
+#search_status {
+  color: green;
+  font-size: 1.5em;
+}
+.holder {
+  background-color: rgba(0, 0, 55, .2);
+}
+#find_button {
+  background-color: orange;
+  color: black;
+  text-align: center;
+  margin-top: 4px;
+  padding: 5px;
+  border: 1px solid black;
+  box-shadow: inset 0px 0px 10px black;
+}
+#character_input {
+  margin-bottom: 4px;
+}
+.seperator {
+  height: 15px;
+  background-color: none;
+}
+#middle_container {
+  display: grid;
+  height: 70%;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.item {
+  padding-top: 10px;
+  color: white;
+  border-radius: 10%;
+  border: 1px solid grey;
+}
+.ilvl {
+  font-size: 20px;
+  font-style: oblique;
+  color: orange;
+}
+#user_summary {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  color: white;
+  font-size: 1em;
+}
+#user_eilvl {
+  color: orange;
+  font-size: 3em;
+}
+#user_iilvl {
+  color: orange;
+  font-size: 2em;
+}

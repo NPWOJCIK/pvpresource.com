@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>PVP resource</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png">
+  </head>
+
+  <body>
+    <!--***************************HEADER*********************************-->
+    <div id="header">
+      <div id="header_left">
+        <div id="logo_name">
+          <img height="70px" width="200px" src="PVPlogonew.png">
+        </div>
+      </div>
+      <div id="header_right">
+        <a href="###">
+          <div id="search_nav">
+            CONTACT
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!--**************************CONTENT*********************************-->
+    <div id="content">
+      <div class="holder"></div>
+      <!--_________________________LEFT___________________________________-->
+      <div id="content_left">
+        <form>
+          <div class="text_Headers">Search</div>
+            <div class="text_titles"><b>Player name:</b></div>
+            <input id="character_input" type="text"/>
+            <div class="special_chars">
+              <div class="quick_button">À</div>
+              <div class="quick_button">Á</div>
+              <div class="quick_button">Â</div>
+              <div class="quick_button">Ã</div>
+              <div class="quick_button">Ä</div>
+            </div>
+            <div class="special_chars">
+              <div class="quick_button">à</div>
+              <div class="quick_button">á</div>
+              <div class="quick_button">â</div>
+              <div class="quick_button">ã</div>
+              <div class="quick_button">ä</div>
+            </div>
+            <div class="special_chars">
+              <div class="quick_button">È</div>
+              <div class="quick_button">É</div>
+              <div class="quick_button">Ê</div>
+              <div class="quick_button">Ë</div>
+            </div>
+            <div class="special_chars">
+              <div class="quick_button">è</div>
+              <div class="quick_button">é</div>
+              <div class="quick_button">ê</div>
+              <div class="quick_button">ë</div>
+            </div>
+            <div class="special_chars">
+              <div class="quick_button">Ì</div>
+              <div class="quick_button">Í</div>
+              <div class="quick_button">Î</div>
+              <div class="quick_button">Ï</div>
+            </div>
+            <div class="special_chars">
+              <div class="quick_button">ì</div>
+              <div class="quick_button">í</div>
+              <div class="quick_button">î</div>
+              <div class="quick_button">ï</div>
+            </div>
+            <div class="special_chars">
+              <div class="quick_button">Ò</div>
+              <div class="quick_button">Ó</div>
+              <div class="quick_button">Ô</div>
+              <div class="quick_button">Õ</div>
+              <div class="quick_button">Ö</div>
+            </div>
+            <div class="special_chars">
+              <div class="quick_button">ò</div>
+              <div class="quick_button">ó</div>
+              <div class="quick_button">ô</div>
+              <div class="quick_button">õ</div>
+              <div class="quick_button">ö</div>
+            </div>
+            <div class="special_chars">
+              <div class="quick_button">Ù</div>
+              <div class="quick_button">Ú</div>
+              <div class="quick_button">Û</div>
+              <div class="quick_button">Ü</div>
+            </div>
+            <div class="special_chars">
+              <div class="quick_button">ù</div>
+              <div class="quick_button">ú</div>
+              <div class="quick_button">û</div>
+              <div class="quick_button">ü</div>
+            </div>
+            <div class="special_chars">
+              <div class="quick_button">Ý</div>
+              <div class="quick_button">ý</div>
+              <div class="quick_button">Ÿ</div>
+              <div class="quick_button">ÿ</div>
+            </div>
+            <div class="text_titles"><b>Realm:</b></div>
+            <input id="realm_input" type="text"/>
+            <div id="find_button"><b>FIND</b></div>
+        </form>
+        <!--<div><hr></div>-->
+        <div class="seperator"></div>
+        <div id="search_status">FOUND!</div>
+        <div class="items_even">Name: </div>
+        <div class="items_even"><span id="user_name1" style="color:orange">-</span></div>
+        <div class="items_odd">Realm: </div>
+        <div class="items_odd"><span id="user_realm" style="color:orange">-</span></div>
+        <div class="items_even">Race: </div>
+        <div class="items_even"><span id="user_race" style="color:orange">-</span></div>
+        <div class="items_odd">Class: </div>
+        <div class="items_odd"><span id="user_class" style="color:orange">-</span></div>
+        <div class="items_even">Spec: </div>
+        <div class="items_even"><span style="color:white">---</span></div>
+        <div class="items_odd">Achievement Points: </div>
+        <div class="items_odd"><span id="user_points" style="color:orange">-</span></div>
+        <div class="items_even">Level: </div>
+        <div class="items_even"><span id="user_level" style="color:orange">-</span></div>
+      </div>
+
+      <!--___________________________MIDDLE_________________________________-->
+      <div id="content_middle">
+        <div id="user_name2" style="color:red" class="text_Headers">-</div>
+
+        <div id="user_summary">
+          <div>
+            <img id="user_image" style="margin-bottom:20px" height="100px" width="100px">
+          </div>
+          <div>Equipped iLvL
+            <div id="user_eilvl">
+                -
+            </div>
+          </div>
+          <div>Inventory iLvl
+            <div id="user_iilvl">
+               -
+            </div>
+          </div>
+        </div>
+
+        <hr>
+        <div id="middle_container">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div class="item">Head
+            <div id="item_head" class ="ilvl">-</div>
+          </div>
+          <div></div>
+          <div></div>
+          <div></div>
+
+          <div></div>
+          <div></div>
+          <div class="item">Shoulders
+            <div id="item_shoulders" class ="ilvl">-</div>
+          </div>
+          <div class="item">Neck
+            <div id="item_neck" class ="ilvl">-</div>
+          </div>
+          <div class="item">Back
+            <div id="item_back" class ="ilvl">-</div>
+          </div>
+          <div></div>
+          <div></div>
+
+          <div></div>
+          <div class="item">Wrist
+            <div id="item_wrist" class ="ilvl">-</div>
+          </div>
+          <div></div>
+          <div class="item">Chest
+            <div id="item_chest" class ="ilvl">-</div>
+          </div>
+          <div></div>
+          <div class="item">Gloves
+            <div id="item_gloves" class ="ilvl">-</div>
+          </div>
+          <div></div>
+
+          <div></div>
+          <div class="item">Ring1
+            <div id="item_ring1" class ="ilvl">-</div>
+          </div>
+          <div></div>
+          <div class="item">Legs
+            <div id="item_legs" class ="ilvl">-</div>
+          </div>
+          <div></div>
+          <div class="item">Ring2
+            <div id="item_ring2" class ="ilvl">-</div>
+          </div>
+          <div></div>
+
+          <div></div>
+          <div></div>
+          <div></div>
+          <div class="item">Boots
+            <div id="item_boots" class ="ilvl">-</div>
+          </div>
+          <div></div>
+          <div></div>
+          <div></div>
+
+          <div></div>
+          <div class="item">Shield
+            <div id="item_shield" class ="ilvl">-</div>
+          </div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div class="item">Belt
+            <div id="item_belt" class ="ilvl">-</div>
+          </div>
+          <div></div>
+
+          <div></div>
+          <div class="item">Main wep
+            <div id="item_mainwep" class ="ilvl">-</div>
+          </div>
+          <div class="item">Offhand
+            <div id="item_offhand" class ="ilvl">-</div>
+          </div>
+          <div></div>
+          <div class="item">Trink1
+            <div id="item_trink1" class ="ilvl">-</div>
+          </div>
+          <div class="item">Trink2
+            <div id="item_trink2" class ="ilvl">-</div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+
+      <!--___________________________RIGHT___________________________________-->
+      <div id="content_right">
+        <div class="text_Headers">Statistics</div>
+        <div class="text_titles_dark"><b>General:</b></div>
+        <div class="items_even">HP: <span id="user_health" style="color:orange">-</span></div>
+        <div class="items_odd">Mana: <span id="user_mana" style="color:orange">-</span></div>
+        <div class="items_even">Stamina: <span id="user_stamina" style="color:orange">-</span></div>
+        <div class="items_odd">Strength: <span id="user_strength" style="color:orange">-</span></div>
+        <div class="items_even">Intellect: <span id="user_intellect" style="color:orange">-</span></div>
+        <div class="items_odd">Agility: <span id="user_agility" style="color:orange">-</span></div>
+        <div class="items_even">Mastery: <span id="user_mastery" style="color:orange">-</span></div>
+        <div class="items_odd">Crit: <span id="user_critical" style="color:orange">-</span></div>
+        <div class="items_even">Haste: <span id="user_haste" style="color:orange">-</span></div>
+        <div class="items_odd">Dodge: <span id="user_spellcrit" style="color:orange">-</span></div>
+        <div class="items_even">Versatility: <span id="user_versatility" style="color:orange">-</span></div>
+        <div class="seperator"></div>
+        <div class="text_titles_dark"><b>Total HK:</b></div>
+        <div class="items_odd"><span id="user_hk" style="color:orange">-</span></div>
+        <div class="text_titles_light"><b>Play time:</b></div>
+        <div class="items_even"><span style="color:orange">-d -hr -m</span></div>
+        <div class="seperator"></div>
+        <div class="text_titles_dark"><b>RBG:</b></div>
+        <div class="items_odd"><span style="color:orange">-</span> highest achievement</div>
+        <div class="items_odd"><span id="RBG_current_rating" style="color:orange">-</span> current rating</div>
+        <div class="text_titles_light"><b>2v2:</b></div>
+        <div class="items_even"><span id="user_2v2_high" style="color:orange">-</span> highest rating</div>
+        <div class="items_even"><span id="twos_current_rating" style="color:orange">-</span> current rating</div>
+        <div class="text_titles_dark"><b>3v3:</b></div>
+        <div class="items_odd"><span id="user_3v3_high" style="color:orange">-</span> highest rating</div>
+        <div class="items_odd"><span id="threes_current_rating" style="color:orange">-</span> current rating</div>
+        <div class="text_titles_light"><b>5v5:</b></div>
+        <div class="items_even"><span id="user_5v5_high" style="color:orange">-</span> highest rating</div>
+        <div class="items_even"><span id="fives_current_rating" style="color:orange">0</span> current rating (INACTIVE)</div>
+      </div>
+      <div class="holder">
+        Updates upon log-out:::
+        Last-Modified: Sun, 19 Nov 2017 21:50:18 GMT
+      </div>
+    </div>
+
+    <!--************************ FOOTER *****************************-->
+    <div id="footer">
+
+    </div>
+
+    <!--********************** SCRIPT INIT **************************-->
+    <script src="RES.js"> </script>
+
+  </body>
+</html>
