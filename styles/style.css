@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+/*
+   This is a breakdown of how the the stylesheet is organized and helps to find
+   parts of the styling quickly.  The sections can be quickly found by scrolling
+   the far right side of the code.
+
+   SECTIONS: "GENERIC"                   Styling for elements within the entire page.
+             "HEADER"                    Styling for the elements in the top navigation bar.
+                "CONTAINER"
+                    "INNER CONTENT"
+             "CONTENT"                   Styling for the elements within the middle of the page (main content).
+                CONTAINER
+                    "INNER CONTENT"
+             "FOOTER"                    Styling for the elements in the lower information bar (currently unused).
+*/
+
+
+
+
+/******************** GENERIC **********************                    GENERIC  */
+
 html, body {
   margin: 0px;
   padding: 0px;
@@ -12,7 +32,21 @@ html, body {
   background-size: cover;
 }
 
-/******************** HEADER ************************/
+a {
+  text-decoration: none;
+  color: white;
+}
+
+span {
+  color: green;
+}
+
+
+
+
+/******************** HEADER ************************                    HEADER  */
+
+/* CONTAINER */
 #header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -21,6 +55,8 @@ html, body {
   background-color: grey;
   border-bottom: 1px solid orange;
 }
+
+/* INNER CONTENT */
 #header_left {
   display: grid;
   color: white;
@@ -42,24 +78,26 @@ html, body {
   text-align: center;
   color: orange;
 }
-a {
-  text-decoration: none;
-  color: white;
-}
-/******************** CONTENT ************************/
+
+
+
+
+/******************** CONTENT ************************                  CONTENT  */
+
+/* CONTAINER */
 #content {
   display: grid;
   grid-template-columns:  1fr 1fr 2fr 1fr 1fr;
   width: 100%;
   height: 80%;
-  /*background-color: #001a33;*/
 }
+
+/* INNER CONTENT */
 #content_left {
   display: grid;
   justify-items: stretch;
   background-color: #565656;
   border-radius: 1%;
-  /*border: 2px solid black;*/
   padding: 5px;
   padding-bottom: 10px;
 }
@@ -72,20 +110,11 @@ a {
   justify-items: stretch;
   background-color: #565656;
   border-radius: 1%;
-  /*border: 2px solid black;*/
   padding: 5px;
   padding-bottom: 10px;
 }
 #text_input {
   margin-bottom: 5px;
-}
-/******************** FOOTER *************************/
-#footer {
-  display: grid;
-  width: 100%;
-  height: 10%;
-  background-color: #00264d;
-  border-top: 1px solid orange;
 }
 .text_Headers {
   color: white;
@@ -121,9 +150,6 @@ a {
   background-color: #777777;
   padding-left: 5px;
   color: white;
-}
-span {
-  color: green;
 }
 .special_chars {
   display: grid;
@@ -187,4 +213,16 @@ span {
 #user_iilvl {
   color: orange;
   font-size: 2em;
+}
+
+
+
+
+/******************** FOOTER *************************                   FOOTER  */
+#footer {
+  display: grid;
+  width: 100%;
+  height: 10%;
+  background-color: #00264d;
+  border-top: 1px solid orange;
 }
