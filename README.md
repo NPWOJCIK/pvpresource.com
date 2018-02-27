@@ -12,5 +12,5 @@ This website is being built to provide guild members within the World of Warcraf
 * HTML
 * CSS
 * Javascript
- * used for accessing Blizzard's API
- * used for manipulating displayed statistics during searches
+  * used for accessing Blizzard's API
+  * used for manipulating displayed statistics during searches
